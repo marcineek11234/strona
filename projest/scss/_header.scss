@@ -1,0 +1,42 @@
+.header {
+    width: 100vw;
+    height: 6vh;
+    background-color: hsla(0, 0%, 0%, 0.489);
+    position: fixed;
+    top: 0;
+  }
+  
+  .header ol {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header ol li {
+    line-height: normal;
+    margin-left: 3%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .header ol li a {
+    text-shadow: 20cap;
+    font-size: 1.3rem;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+  
+  iframe {
+    width: 100%;
+  }
+  
+  .space {
+    width: 100vw;
+    height: 6vh;
+  }

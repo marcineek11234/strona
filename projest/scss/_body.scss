@@ -1,0 +1,35 @@
+
+* {
+    color: aliceblue;
+  }
+  body {
+    line-height: 1;
+    box-sizing: border-box;
+    text-align: justify;   
+  }
+  
+  
+  body {
+    z-index: 0;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .photo-box {
+    margin: 2%;
+    max-width: 400px;
+    max-height: 1000px;
+    border-radius: 30px;
+    background-color: hsla(0, 0%, 0%, 0.217);
+    padding: 10px;
+  }
+  
+  .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
